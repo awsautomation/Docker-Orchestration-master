@@ -1,0 +1,17 @@
+com/codeabovelab/dm/platform/cache/ConfigurableGuavaCacheManager.class
+com/codeabovelab/dm/platform/http/async/NettyRequestFactory$1.class
+com/codeabovelab/dm/platform/http/async/NettyRequestFactory.class
+com/codeabovelab/dm/platform/configuration/CacheConfiguration.class
+com/codeabovelab/dm/platform/http/async/NettyResponseHandler.class
+com/codeabovelab/dm/platform/http/async/ChunkedInputStream$Adapter.class
+com/codeabovelab/dm/platform/configuration/CacheConfiguration$DistributedCacheManagerProperties.class
+com/codeabovelab/dm/platform/configuration/CacheConfiguration$LocalCacheManagerProperties.class
+com/codeabovelab/dm/platform/cache/ConfigurableGuavaCacheManager$GuavaCache.class
+com/codeabovelab/dm/platform/cache/ConfigurableGuavaCacheManager$GuavaCacheSupplier.class
+com/codeabovelab/dm/platform/http/async/ChunkedInputStream.class
+com/codeabovelab/dm/platform/security/Base64Encryptor.class
+com/codeabovelab/dm/platform/http/async/NettyRequest.class
+com/codeabovelab/dm/platform/http/async/ByteBufHolderAdapter.class
+com/codeabovelab/dm/platform/configuration/RestApplicationConfiguration.class
+com/codeabovelab/dm/platform/configuration/SecurityApplicationConfiguration.class
+com/codeabovelab/dm/platform/http/async/NettyResponse.class

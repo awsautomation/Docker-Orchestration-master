@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+dm-cluman-info-buildRevision: 
+Implementation-Title: common-core
+Implementation-Version: 1.2.8
+dm-cluman-info-name: common-core
+dm-cluman-info-version: 1.2.8
+Built-By: farhan
+Specification-Vendor: Pivotal Software, Inc.
+Specification-Title: common-core
+Implementation-Vendor-Id: com.codeabovelab.dm
+Implementation-Vendor: Pivotal Software, Inc.
+dm-cluman-info-date: 2020-02-06T06:10:12.904Z
+Build-Jdk: 1.8.0_242
+Specification-Version: 1.2
+Implementation-URL: http://projects.spring.io/spring-boot/dm-parent/co
+ mmon/common-core/
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,18 @@
+server.port: ${dm.server.port}
+dm:
+  config:
+    git:
+      uri:
+spring:
+  application:
+    name: cluster-manager
+  cloud:
+    config:
+      server:
+        prefix: /config
+        git:
+          uri: ${dm.config.git.uri}
+          username: ${dm.config.git.username}
+          password: ${dm.config.git.password}
+
+

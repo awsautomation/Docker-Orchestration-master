@@ -1,0 +1,15 @@
+com/codeabovelab/dm/gateway/api/ConnectionEventListener.class
+com/codeabovelab/dm/gateway/auth/ConfigurableUserDetailService$UserConfig.class
+com/codeabovelab/dm/gateway/token/TokenAuthProvider.class
+com/codeabovelab/dm/gateway/auth/UserCompositeAuthProvider.class
+com/codeabovelab/dm/gateway/auth/ConfigurableUserDetailService.class
+com/codeabovelab/dm/gateway/auth/ConfigurableUserDetailService$Config.class
+com/codeabovelab/dm/gateway/api/ConnectionCloseCallback.class
+com/codeabovelab/dm/gateway/token/TokenAuthFilterConfigurer.class
+com/codeabovelab/dm/gateway/token/AuthenticationTokenFilter.class
+com/codeabovelab/dm/gateway/token/TokenServiceConfiguration.class
+com/codeabovelab/dm/gateway/token/RequestTokenHeaderRequestMatcher.class
+com/codeabovelab/dm/gateway/api/ConnectionCloseEventSourceCallback.class
+com/codeabovelab/dm/gateway/filestorage/GetResponseExtractor.class
+com/codeabovelab/dm/gateway/api/ConnectionEventHub.class
+com/codeabovelab/dm/gateway/token/TokenAuthFilterConfigurer$AuthenticationStubSuccessHandler.class

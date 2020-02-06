@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+dm-cluman-info-buildRevision: 
+Implementation-Title: cluster-manager
+Implementation-Version: 1.2.8
+dm-cluman-info-name: cluster-manager
+dm-cluman-info-version: 1.2.8
+Built-By: farhan
+Specification-Vendor: Pivotal Software, Inc.
+Specification-Title: cluster-manager
+Implementation-Vendor-Id: com.codeabovelab.dm
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.codeabovelab.dm.cluman.Application
+dm-cluman-info-date: 2020-02-06T13:09:28.571Z
+Build-Jdk: 1.8.0_242
+Specification-Version: 1.2
+Implementation-URL: http://projects.spring.io/spring-boot/dm-parent/cl
+ uster-manager/
+Created-By: Maven Integration for Eclipse
+

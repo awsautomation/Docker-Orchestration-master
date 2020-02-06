@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+
+    <property name="PATH" value="./log"/>
+    <property name="ENCODER_PATTERN" value="%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n"/>
+    <property name="ROLLING_PATTERN" value="%d{yyyy-MM-dd}.dm.log.zip"/>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${PATH}/dm.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${PATH}/${ROLLING_PATTERN}</fileNamePattern>
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+        <append>true</append>
+        <encoder>
+            <pattern>${ENCODER_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${ENCODER_PATTERN}</pattern>
+        </encoder>
+
+    </appender>
+
+    <root level="DEBUG">
+        <appender-ref ref="FILE"/>
+    </root>
+
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="com.jcabi" level="WARN"/>
+    <logger name="org.apache" level="ERROR"/>
+    <logger name="springfox" level="ERROR"/>
+    <logger name="mousio" level="ERROR"/>
+
+    <logger name="com.codeabovelab" level="TRACE" additivity="false">
+        <appender-ref ref="FILE"/>
+    </logger>
+
+    <logger name="com.codeabovelab" level="INFO" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="org.springframework.cloud.bootstrap.config" level="INFO" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="org" level="ERROR" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+
+</included>
